@@ -60,4 +60,5 @@ filtered_data = filtered_data[(filtered_data['Price'] >= selected_price[0]) & (f
 
 st.write("Filtered Data:")
 st.write(filtered_data)
+
 st.write(f"Number of matching cars: {len(filtered_data)}")
